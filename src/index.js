@@ -1,3 +1,3 @@
-import Dummy from './components/Dummy';
+import TimeExplorer from './components/TimeExplorer';
 
-export {Dummy};
+export {TimeExplorer};
