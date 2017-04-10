@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
 import {TimeExplorer} from '../../src';
+import data from '../../data/data';
 
-const App = class App extends Component {
+class App extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -12,11 +13,11 @@ const App = class App extends Component {
     render() {
         return (
             <div>
-                <TimeExplorer></TimeExplorer>
+                <TimeExplorer width={1000} height={1100} data={data}></TimeExplorer>
             </div>
         );
     }
-};
+}
 
 ReactDOM.render(
     <App />,

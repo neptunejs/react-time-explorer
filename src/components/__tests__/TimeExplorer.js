@@ -1,11 +1,11 @@
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Dummy from '../Dummy';
+import TimeExplorer from '../TimeExplorer';
 
 test('Component renders', () => {
     const component = renderer.create(
-        <Dummy />
+        <TimeExplorer />
     );
     let tree = component.toJSON();
 
